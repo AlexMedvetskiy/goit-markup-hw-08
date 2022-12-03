@@ -67,6 +67,9 @@
 
 .current {
     color:var(--brand-color);
+    @media screen and (min-width: 767px) {
+        
+   
     &::after {
         content:'';
         background-color: var(--brand-color);
@@ -79,11 +82,11 @@
         bottom: -1px;
      }
     }
+}
 
 
 
 .contacts {
-    display: none;
     display: none;
     @media screen and (min-width: 480px) {
         
@@ -138,5 +141,27 @@
     @media screen and (min-width: 1200px) {
         
     }
+}
 
+.mobile-menu {
+    background-color:#FFFFFF;
+    overflow: scroll;
+}
+
+.mobile-menu_navigation {
+    font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.mobile-menu_navigation-item {
+    font-size: 40px;
+}
+
+.mobile-menu_social-list {
+    justify-content: center;
+    flex-direction: row-reverse;
 }
