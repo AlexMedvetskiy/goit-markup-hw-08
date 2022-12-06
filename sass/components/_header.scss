@@ -164,7 +164,6 @@
 
 .mobile-menu {
     background-color:#FFFFFF;
-    overflow: scroll;
     width: 100%;
     height: 100%;
 }
@@ -172,24 +171,27 @@
 .mobile-menu_navigation {
     font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 30px;
 line-height: 47px;
-text-align: center;
 letter-spacing: 0.02em;
+justify-content: flex-start;
 
 }
 .mobile-menu_navigation-item {
-    font-size: 40px;
+
+  
 }
 
 .site-nav__link-menu {
     size: 40px;
 }
+.mobile-menu_social {
+    justify-content: flex-start;
+    flex-direction: row;
+}
 
 .mobile-menu_social-list-item {
-    display: block;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
+  
+
 }
 
