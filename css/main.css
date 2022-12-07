@@ -242,12 +242,26 @@ body {
   border-bottom: 1px solid #E5E5E5;
 }
 
-.button-burger {
-  width: 40px;
-  height: 40px;
+.js-open-menu {
+  position: absolute;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+.js-open-menu:focus, .js-open-menu:hover {
+  fill: var(--brand-color);
 }
 @media screen and (min-width: 768px) {
-  .button-burger {
+  .js-open-menu {
     display: none;
   }
 }
