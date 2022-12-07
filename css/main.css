@@ -310,6 +310,10 @@ body {
   color: #212121;
 }
 
+.site-nav__link-menu:focus, .site-nav__link-menu:hover {
+  color: var(--brand-color);
+}
+
 .mobile-menu_contacts {
   gap: 32px;
   margin-bottom: 40px;
@@ -330,6 +334,10 @@ body {
   padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   margin: 0;
+}
+
+.network__link-menu {
+  font-size: 10px;
 }
 
 .container--footer {
