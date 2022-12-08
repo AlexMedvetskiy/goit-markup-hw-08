@@ -1,7 +1,23 @@
+.footer {
+  width: 100%;
+}
+
 .container--footer {
-    margin-right: 170p;
-    flex-grow: 1;
+   
+      @media screen and (min-width: 480px) {
+          
+      }
+      @media screen and (min-width: 768px) {
+          display: flex;
+      align-items: center;
+      gap: 50px;
+      }
+      @media screen and (min-width: 1200px) {
+          
+      }
+      
   }
+  
   
   .footer{
       background-color: var(--background-color);
