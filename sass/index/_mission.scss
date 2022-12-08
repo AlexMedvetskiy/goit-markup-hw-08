@@ -1,3 +1,14 @@
+.container-mission {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
 .section__title--visually-hiden {
     position: absolute;
     width: 1px;
@@ -11,7 +22,21 @@
 
 .features {
 display: flex;
-gap: 30px;
+
+width: 100%;
+}
+
+.features-item {
+    width: 100%;
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    } 
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100%-30px) /2);
+    }
 }
 
 .features__icon-box {
@@ -22,6 +47,7 @@ height: 120px;
 margin-bottom: 30px;
 border-radius: 4px;
 background-color:  #F5F4FA;
+
 }
 
 
