@@ -127,13 +127,13 @@
 
 
 
-  .contacts__icon {
+.contacts__icon {
     margin-right: 10px;
-   }
+}
 
 
 
-   .header {
+.header {
     border-bottom: 1px solid #E5E5E5;    
 }
 
@@ -148,15 +148,15 @@
     background-color: #FFFFFF;
     &:focus,
     &:hover {
-      fill: var(--brand-color);
+    fill: var(--brand-color);
     }
     @media screen and (min-width: 480px) {
     }
     @media screen and (min-width: 768px) {
         display: none;
-           }
+        }
     @media screen and (min-width: 1200px) {
-      }
+    }
     
 
 
