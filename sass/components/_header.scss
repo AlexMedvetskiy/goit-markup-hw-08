@@ -157,6 +157,7 @@
         }
     @media screen and (min-width: 1200px) {
     }
+}
     
 
 
@@ -225,6 +226,9 @@ color:   #212121;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     }
     .mobile-menu_social-list-item:not(:last-child) {
         padding-right: 10px;
@@ -233,5 +237,4 @@ margin: 0;
 }
 .network__link-menu {
     font-size: 10px;
-}
 }

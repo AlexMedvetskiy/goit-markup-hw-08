@@ -279,7 +279,7 @@ body {
     display: none;
   }
 }
-.js-open-menu .js-close-menu {
+.js-close-menu {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -299,10 +299,11 @@ body {
   cursor: pointer;
   background-color: #FFFFFF;
 }
-.js-open-menu .js-close-menu:focus, .js-open-menu .js-close-menu:hover {
+.js-close-menu:focus, .js-close-menu:hover {
   fill: var(--brand-color);
 }
-.js-open-menu .mobile-menu {
+
+.mobile-menu {
   background-color: #FFFFFF;
   width: 100%;
   height: 100%;
@@ -314,7 +315,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.js-open-menu .mobile-menu_navigation {
+
+.mobile-menu_navigation {
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -326,20 +328,25 @@ body {
   gap: 32px;
   margin-bottom: auto;
 }
-.js-open-menu .mobile-menu_navigation :focus {
+
+.mobile-menu_navigation :focus {
   color: var(--brand-color);
 }
-.js-open-menu .mobile-menu_navigation-item {
+
+.mobile-menu_navigation-item {
   color: #212121;
 }
-.js-open-menu .site-nav__link-menu:focus, .js-open-menu .site-nav__link-menu:hover {
+
+.site-nav__link-menu:focus, .site-nav__link-menu:hover {
   color: var(--brand-color);
 }
-.js-open-menu .mobile-menu_contacts {
+
+.mobile-menu_contacts {
   gap: 32px;
   margin-bottom: 40px;
 }
-.js-open-menu .mobile-menu_social-list {
+
+.mobile-menu_social-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,13 +355,18 @@ body {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.js-open-menu .mobile-menu_social-list-item:not(:last-child) {
+
+.mobile-menu_social-list-item:not(:last-child) {
   padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   margin: 0;
 }
-.js-open-menu .network__link-menu {
+
+.network__link-menu {
   font-size: 10px;
 }
 
