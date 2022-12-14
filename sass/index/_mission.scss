@@ -22,20 +22,21 @@
 
 .features {
 display: flex;
-
 width: 100%;
+flex-wrap: wrap;
+ @media screen and (max-width: 480px) {
+        display: flex;
+    justify-content: center;
+    } 
 }
 
 .features-item {
-    // width: 100%;
-    // @media screen and (max-width: 768px) {
-    //     display: flex;
-    //     flex-direction: column;
-    // } 
-    // @media screen and (min-width: 768px) {
-    //     display: flex;
-    //     flex-wrap: wrap;
-    // }
+    width: 210px;
+    margin: 30px;
+   
+    @media screen and (min-width: 768px) {
+
+    }
 }
 
 .features__icon-box {
