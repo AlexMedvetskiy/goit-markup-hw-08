@@ -28,15 +28,14 @@ flex-wrap: wrap;
         display: flex;
     justify-content: center;
     } 
+    @media screen and (min-width: 768px) {
+        justify-content: space-around;
+        }
 }
 
 .features-item {
     width: 210px;
     margin: 30px;
-   
-    @media screen and (min-width: 768px) {
-
-    }
 }
 
 .features__icon-box {

@@ -881,11 +881,18 @@ body {
             justify-content: center;
   }
 }
+@media screen and (min-width: 768px) {
+  .features {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 
 .features-item {
   width: 210px;
   margin: 30px;
 }
+
 .features__icon-box {
   display: -webkit-box;
   display: -ms-flexbox;
